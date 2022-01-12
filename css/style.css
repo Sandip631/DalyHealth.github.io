@@ -575,7 +575,7 @@ footer{
 
 /* ***************************for mobile********************************* */
 
-@media (max-width: 770px){
+@media (max-width: 380px){
     header, 
     .main-hero-section, 
     .comon-section {
@@ -608,19 +608,21 @@ footer{
         padding: 0px;
     }
     header nav .left_side_menu .sub_menu{
-        width: 500px;
+        width: 345px;
+        margin-top: 25px;
     }
     header nav .left_side_menu a img{
-        height: 70px;
-        width: 150px;
+        height: 60px;
+        width: 125px;
+        margin-top: -132px;
 
     }
     button {
-        padding: 0rem 1.2rem;
+        padding: 0rem 0.9rem;
         border-radius: 1.2rem;
         border: none;
         outline: none;
-        line-height: 2.5rem;
+        line-height: 2.1rem;
         text-transform: capitalize;
         cursor: pointer;
         font-style: normal;
@@ -628,10 +630,18 @@ footer{
         font-size: 1.2rem;
         z-index: 9;
     }
+
+    .right_side_menu .sub_menu {
+        padding-left: 140px;
+        font-size: 7px;
+    }
+
+
+
    /* *********social media sectoon************ */
 
    div.icon {
-    position: sticky;       
+    position: sti;       
     top: 50%;
     /* right: 0px; */
     z-index: 999;
@@ -649,7 +659,7 @@ footer{
     /* *********hero section******** */
     .main-hero-section{
         width: 100%;
-        height: 80vh;
+        height: 70vh;
         display: flex;
         flex-flow: column;
         margin: 0px;
@@ -658,13 +668,26 @@ footer{
     .main-hero-section .Right-hero-section {
         order: 2;
         width: 100%;
+        margin-top: 108px;
         
+    }
+    .main-hero-section .Right-hero-section h2 {
+        width: 375px;
+        font-size: 45px;
+        top: 0px;   
+        padding-left: 22px; 
+    }
+    .main-hero-section .Right-hero-section p {
+        width: 361px;
+        font-size: 27px;
+        top: 0px;    
+        margin-bottom: 50px;
     }
     .main-hero-section .Left-hero-section img {
         height: 400px;
         width: 400px;
         margin: 0px;
-        margin-top: 10px;
+        margin-top: 30px;
         right: 90px;
         order: 1;
         /* width: 100%; */
@@ -676,6 +699,154 @@ footer{
     }
     .main-hero-section .Left-hero-section{
         background: transparent;
+        width: 340px;
     }
-   
+    .comon-section{
+        width: 340px;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .comon-section .left-side img {
+        height: 450px;
+        width: 350px;
+        margin-left: 18px;
+        margin-top: 10px;
+    }
+    .comon-section .left-side figure {
+        height: 500px;
+        width: 376px;
+        margin-left: 26px;
+        margin-top: 0px;
+        margin-left: -20px;
+        margin-bottom: 20px;
+
+    }
+    .Right-side h2 {
+        width: 350px;
+        font-size: 33px;
+        top: 0px;
+    }   
+    
+    .Right-side p {
+        width: 361px;
+        font-size: 27px;
+        top: 0px;    
+        margin-bottom: 50px;
+    }
+    .comon-section .Right-side {
+        margin-left: -12px;
+        width: 350px;
+    }
+
+    /* ************3rd section************* */
+
+    .section-third {
+        height: auto;
+        width: 380px;
+        padding: 10px;
+        
+    }
+    .section-third .section-third-task {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 4rem;
+        padding: 0;
+        
+        
+    }
+    .section-third .section-third-task .task-1, 
+    .section-third .section-third-task .task-2, 
+    .section-third .section-third-task .task-3 {
+        margin: 10px;
+        margin-left: 3px;
+        /* height: 50%;
+        width: 50%; */
+    }
+    .section-third h2 {
+        font-size: 40px;
+        margin-left: -7px;
+    }
+
+    /* ********4th section************* */
+    #section-four .Right-side h2 {
+        width: 375px;
+        font-size: 40px;
+        margin-left: -21px;
+        padding-left: 34px;
+    
+    }
+    #section-four .Right-side p {
+        width: 20rem;
+        margin: 23px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    div .button-group {
+        margin-left: 25px;
+    }
+    
+    #section-four .left-side img {
+        height: 298px;
+        width: 350px;
+        margin: -26px;
+        margin-top: 50px;
+    }
+
+    /* *******5th section********** */
+    #section-five .left-side img {
+        height: 450px;
+        width: 360px;
+        margin-left: -15px;
+    }
+    h3 {
+        /* font-weight: 750; */
+        font-size: 2.2rem;
+        line-height: 3rem;
+        text-transform: capitalize;
+        margin: 9px;
+        margin-top: 40px;
+        margin-right: 0px;
+    }
+    /* ************footer*************** */
+    footer {
+        height: 500px;
+        width: 380px;
+        padding: 0px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .footer-menu {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 50px;
+        
+    }
+    .footer-logo {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .coppy-right h4 {
+        margin: 10px;
+        padding: 0px;
+        padding-top: 7px;
+        padding-left: 94px;
+    }
+    .footer-logo img {
+        height: 100px;
+        width: 200px;
+        margin-left: 100px;
+        margin-top: 30px;
+
+    }
+    body {
+        width: 375px;
+    }
+    .footer-logo p {
+        margin-left: 83px;
+    }
 }
